@@ -1,15 +1,16 @@
 #!/bin/sh
 # Milutin Gavrilović (hightech) @ 2013
 
-# Napomena: Sa Debian Wheezy diska instalirati samo base system settings bez gnome desktop okruzenja. Samo CLI okruzenje. Za pokretanje skripte pročitajte README.
+# Napomena: Sa Debian Wheezy diska instalirati samo base system settings bez gnome desktop okruzenja. 
+Samo CLI okruzenje. Za pokretanje skripte pročitajte README.
 
 # Izvori /etc/apt/source.list
 #deb http://mirror.pmf.kg.ac.rs/debian/ wheezy main
 #deb http://security.debian.org/ wheezy/updates main
 #deb-src http://security.debian.org/ wheezy/updates main
 
-# Svaka od naredni komandi zahteva root privilegije. Pokrenite skriptu kao root ili kao sudo komandom
-#sudo gnome3.sh
+# Svaka od naredni komandi zahteva root privilegije. Pokrenite skriptu kao root!
+# gnome3.sh
 
 apt-get install alsa-base -y
 apt-get install altree -y
