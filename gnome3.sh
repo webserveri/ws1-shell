@@ -10,7 +10,7 @@
 #deb-src http://security.debian.org/ wheezy/updates main
 
 # Svaka od naredni komandi zahteva root privilegije. Pokrenite skriptu kao root!
-# gnome3.sh
+# sh gnome3.sh
 
 apt-get install alsa-base -y
 apt-get install altree -y
@@ -28,8 +28,13 @@ apt-get install flex -y
 apt-get install cmake  -y
 apt-get install libtasn1-3-bin-y
 apt-get install binutils -y
-apt-get install curl git git-core -y
-apt-get install python ruby texinfo xsltproc -y
+apt-get install curl -y
+apt-get install git -y 
+apt-get install git-core -y
+apt-get install python -y
+apt-get install ruby -y
+apt-get install texinfo -y
+apt-get install xsltproc -y
 apt-get install gperf -y
 apt-get install intltool -y
 apt-get install libtool -y
