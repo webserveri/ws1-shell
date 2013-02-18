@@ -19,11 +19,19 @@ apt-get install base -y
 apt-get install elf-binutils -y
 apt-get install build-essential -y
 apt-get install automake -y
-apt-get install bison cmake flex gettext gcc -y
-apt-get install libtasn1-3-bin binutils -y
+apt-get install bison -y 
+apt-get install gcc -y
+apt-get install gettext -y 
+apt-get install gcc -y
+apt-get install flex -y
+apt-get install cmake  -y
+apt-get install libtasn1-3-bin-y
+apt-get install binutils -y
 apt-get install curl git git-core -y
 apt-get install python ruby texinfo xsltproc -y
-apt-get install gperf intltool libtool -y
+apt-get install gperf -y
+apt-get install intltool -y
+apt-get install libtool -y
 apt-get install mc -y
 apt-get install gnome-terminal -y
 apt-get install libnautilus-extension-dev -y
