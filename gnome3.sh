@@ -2,7 +2,7 @@
 # Milutin Gavrilović (hightech) @ 2013
 
 # Napomena: Sa Debian Wheezy diska instalirati samo base system settings bez gnome desktop okruzenja. 
-Samo CLI okruzenje. Za pokretanje skripte pročitajte README.
+# Samo CLI okruzenje. Za pokretanje skripte pročitajte README.
 
 # Izvori /etc/apt/source.list
 #deb http://mirror.pmf.kg.ac.rs/debian/ wheezy main
