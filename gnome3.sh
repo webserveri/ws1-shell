@@ -1,4 +1,5 @@
 #!/bin/sh
+# INSTALACIONA SKRIPTA ZA GNOME3
 # Milutin Gavrilović (hightech) @ 2013
 
 # Napomena: Sa Debian Wheezy diska instalirati samo base system settings bez gnome desktop okruzenja. 

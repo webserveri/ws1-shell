@@ -1,3 +1,4 @@
+#!/bin/sh
 # ETHERPAD-LITE INSTALL SKRIPTA
 # Zlatan Vasović (ZDroid) @ 2013
 # Molim pročitajte komentare. Za pokretanje skripte pročitajte README.
