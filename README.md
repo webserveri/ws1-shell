@@ -12,17 +12,17 @@ Trenutne skripte:
 ## Napomene
 
 * Svakoj skripti morate dodeliti privilegiju *execute*. To možete uraditi sledećom komandom: 
-
 ```bash
 chmod +x skripta.sh
 ```
-* Skripte možete pokrenuti jednostavnim unosom imena skripte ili putanje do nje.
 
+* Skripte možete pokrenuti jednostavnim unosom imena skripte ili putanje do nje.
 ```bash
 skripta.sh
-```
+```  
 To možete uraditi i pomoću `sh` komande. 
 ```bash
 sh skripta.sh
 ```
+
 * Obavezno pročitajte komentare, jer se može desiti da je za vašu distribuciju/potrebe/želje nešto drugačije od podrazumevanog.
