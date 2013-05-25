@@ -1,18 +1,22 @@
 #!/bin/sh
 # INSTALACIONA SKRIPTA ZA GNOME3
-# Milutin Gavrilović (hightech) @ 2013
+# Milutin Gavrilović (hightech) & Zlatan Vasović (ZDroid) @ 2013
 
-# Napomena: Sa Debian Wheezy diska instalirati samo base system settings bez gnome desktop okruzenja. 
-# Samo CLI okruzenje. Za pokretanje skripte pročitajte README.
+# Napomena: Sa Debian Wheezy diska instalirati samo „base system settings“ bez Gnome desktop okruženja. 
+# Za pokretanje skripte pročitati README.
 
-# Izvori /etc/apt/source.list
-#deb http://mirror.pmf.kg.ac.rs/debian/ wheezy main
-#deb http://security.debian.org/ wheezy/updates main
-#deb-src http://security.debian.org/ wheezy/updates main
+# Neophodne su root privilegije!
+if [[ $EUID -ne 0 ]]; then
+	echo "Skriptu morate pokrenuti kao root!" 1>&2
+	exit 1
+fi
 
-# Svaka od naredni komandi zahteva root privilegije. Pokrenite skriptu kao root!
-# sh gnome3.sh
+# Izvori paketa
+echo "deb http://mirror.pmf.kg.ac.rs/debian/ wheezy main
+deb http://security.debian.org/ wheezy/updates main
+deb-src http://security.debian.org/ wheezy/updates main" > /etc/apt/source.list
 
+# Osnovni paketi
 apt-get install alsa-base -y
 apt-get install altree -y
 apt-get install automake -y
@@ -45,7 +49,7 @@ apt-get install libnautilus-extension-dev -y
 apt-get install nautilus-actions -y
 apt-get install nautilus -y
 
-# Server dodatak...
+# Serverski paketi
 apt-get install nginx -y
 apt-get install mysql-server -y
 apt-get install mysql-client -y
@@ -67,7 +71,7 @@ apt-get install php5-memcache -y
 apt-get install php5-pspell -y
 apt-get install php5-xsl -y
 
-# Biblioteke za upravljanje slikama...
+# Grafički paketi paketi
 apt-get install libpng12-dev -y
 apt-get install libtiff4-dev -y
 apt-get install libjasper-dev -y
@@ -75,7 +79,7 @@ apt-get install libjpeg8-dev -y
 apt get install gimp-extras -y
 apt get install gimp -y
 
-# X i Gnome-shell biblioteke i jos svašta nesto...
+# X i Gnome
 apt-get install xorg -y
 apt-get install xorg-dev -y
 apt-get install xorg -y
@@ -138,7 +142,7 @@ apt-get install libxt-dev -y
 apt-get install libxtst-dev -y
 apt-get install libx11-xcb-dev -y
 
-# Druge biblioteke
+# Ostalo
 apt-get install libcrack2-dev -y
 apt-get install libcups2-dev -y
 apt-get install libdb-dev -y
@@ -158,6 +162,6 @@ apt-get install uuid-dev -y
 apt-get install libvorbis-dev -y
 apt-get install libiw-dev -y
 
-# Upgrade i update
+# Nadogradnja i ažuriranje
 apt-get update -y 
 apt-get dist-upgrade -y
