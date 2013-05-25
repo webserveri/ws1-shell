@@ -71,7 +71,7 @@ apt-get install php5-memcache -y
 apt-get install php5-pspell -y
 apt-get install php5-xsl -y
 
-# Grafički paketi paketi
+# Grafički paketi
 apt-get install libpng12-dev -y
 apt-get install libtiff4-dev -y
 apt-get install libjasper-dev -y
