@@ -1,46 +1,26 @@
 #!/bin/sh
-# ETHERPAD-LITE INSTALL SKRIPTA
+# ETHERPAD-LITE INSTALACIONA SKRIPTA
 # Zlatan Vasović (ZDroid) @ 2013
-# Molim pročitajte komentare. Za pokretanje skripte pročitajte README.
+# Za pokretanje skripte pročitajte README.
 
-# Vama trebaju gzip, git, curl, libssl develop biblioteke, python i gcc.
+# Neophodne su root privilegije!
+if [[ $EUID -ne 0 ]]; then
+  echo "Skriptu morate pokrenuti kao root!" 1>&2
+	exit 1
+fi
 
-# Za Debian/Ubuntu - dekomentujte sledeću liniju; za Ubuntu dodajte sudo na početku linije ili pokrenite skriptu kao root
-# apt-get install gzip git-core curl python libssl-dev pkg-config build-essential
+# Neophodni paketi
+# Za Debian/Ubuntu:
+#   apt-get install gzip git-core curl python libssl-dev pkg-config build-essential
+# Za Fedora/CentOS:
+#   yum install gzip git-core curl python openssl-devel && yum groupinstall "Development Tools"
 
-# Za Fedora/CentOS - dekomentujte sledeću liniju
-# yum install gzip git-core curl python openssl-devel && yum groupinstall "Development Tools"
+# Node v0.8 / v0.10 je takođe neophodan.
+Za instalaciju node-a možete koristiti nodeinstall.sh skriptu (https://github.com/ZDroid/zdsh/blob/master/script/nodeinstall.sh)
 
-# Vama takođe treba stabila verzija node.js-a
-# Ako želite, odaberite direktorijum za node.js (promenite sledeću liniju)
-# cd željeni-nodejs-direktorijum
-wget http://nodejs.org/dist/v0.8.17/node-v0.8.17.tar.gz
-uncompress node-v0.8.17.tar.gz
-tar -xvf node-v0.8.17.tar
-cd node-v0.8.17
-make
-# Za sledeću liniju - dodajte sudo ako koristite Ubuntu/Linux Mint
-make install
-# Čestitam! Instalirali ste node.js
-
-# Sada se vratite u home
-cd ~/
-
-# Ako želite, možete dodati novi direktorijum za Git repoe (dekomentujte sledeće 2 linije)
-# mkdir repos
-# cd repos
+# Etherpad Instalacija
 git clone git://github.com/ether/etherpad-lite.git
 cd etherpad-lite
 
-# Sada pokrenite Etherpad lite
+# Pokretanje...
 bin/run.sh
-# Ne zaustavljajte skriptu; ako zaustavite skriptu, Etherpad lite će se zaustaviti
-
-# U pregledaču ukucajte http://127.0.0.1:9001 ili http://localhost:9001 i videćete Etherpad lite
-# Čestitam! Etherpad radi!
-
-# Za ažuriranje
-# git pull origin
-
-# Za podešavanja otvorite settings.json
-# Ne menjajte settings.json.template
