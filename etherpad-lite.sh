@@ -16,7 +16,7 @@ fi
 #   yum install gzip git-core curl python openssl-devel && yum groupinstall "Development Tools"
 
 # Node v0.8 / v0.10 je takođe neophodan.
-# Za instalaciju node-a možete koristiti nodeinstall.sh skriptu (https://github.com/ZDroid/zdsh/blob/master/script/nodeinstall.sh)
+# Za instalaciju node-a možete koristiti `node.sh` skriptu (https://github.com/ZDroid/zdsh/blob/master/script/node.sh)
 
 # Etherpad Instalacija
 git clone git://github.com/ether/etherpad-lite.git
