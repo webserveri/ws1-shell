@@ -1,28 +1,19 @@
-# ws1-shell
+# ws1/shell
 
 **Kolekcija shell skripti**
 
-Sve skripte su originalne i ne predstavljaju kopiju postojećih.
+Licencirano pod uslovima GPL v3 licence.
 
-Trenutne skripte:
-* **gnome3.sh** - skripta za instalaciju gnome3 okruženja sa serverskim dodatkom na Debian Wheezy-ju
-* **etherpad-lite.sh** - skripta za instalaciju programa [etherpad-lite] (https://github.com/ether/etherpad-lite) za sve GNU/Linux sisteme
-* **resize_jpg.sh** - skripta za promenu veličine JPG slika
+## Riznica
 
-## Napomene
+* **gnome3.sh** - instalira Gnome 3 okruženje na Debian Wheezy-ju
+* **etherpad-lite.sh** - instalira [Etherpad-lite] (https://github.com/ether/etherpad-lite)
+* **resize-jpg.sh** - smanjuje JPG slike
 
-* Svakoj skripti morate dodeliti privilegiju *execute*. To možete uraditi sledećom komandom: 
+## Pokretanje
+
+Skriptu možete pokrenuti unošenjem njene putanje.
 ```bash
-chmod +x skripta.sh
+$ skripta.sh
 ```
-
-* Skripte možete pokrenuti jednostavnim unosom imena skripte ili putanje do nje.
-```bash
-skripta.sh
-```  
-To možete uraditi i pomoću `sh` komande. 
-```bash
-sh skripta.sh
-```
-
-* Obavezno pročitajte komentare, jer se može desiti da je za vašu distribuciju/potrebe/želje nešto drugačije od podrazumevanog.
+Obavezno pročitajte komentare pre pokretanja, jer se može desiti da je nešto drugačije od podrazumevanog.

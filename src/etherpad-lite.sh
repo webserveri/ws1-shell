@@ -1,11 +1,10 @@
 #!/bin/sh
-# ETHERPAD-LITE INSTALACIONA SKRIPTA
-# Zlatan Vasović (ZDroid) @ 2013
-# Za pokretanje skripte pročitajte README.
+#
+# Instalira Etherpad-lite.
 
 # Neophodne su root privilegije!
 if [[ $EUID -ne 0 ]]; then
-  echo "Skriptu morate pokrenuti kao root!" 1>&2
+  echo "Skriptu možete samo pokrenuti kao root!" 1>&2
 	exit 1
 fi
 
@@ -15,10 +14,11 @@ fi
 # Za Fedora/CentOS:
 #   yum install gzip git-core curl python openssl-devel && yum groupinstall "Development Tools"
 
-# Node v0.8 / v0.10 je takođe neophodan.
-# Za instalaciju node-a možete koristiti `node.sh` skriptu (https://github.com/ZDroid/zdsh/blob/master/script/node.sh)
+# Node je takođe neophodan.
+# Za instalaciju Node-a možete koristiti `node.sh` skriptu:
+# https://github.com/ZDroid/zdsh/blob/master/script/node.sh
 
-# Etherpad Instalacija
+# Kloniranje repozitorijuma
 git clone git://github.com/ether/etherpad-lite.git
 cd etherpad-lite
 

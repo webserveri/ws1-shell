@@ -1,13 +1,12 @@
 #!/bin/sh
-# INSTALACIONA SKRIPTA ZA GNOME3
-# Milutin Gavrilović (hightech) & Zlatan Vasović (ZDroid) @ 2013
+#
+# Instalira Gnome 3.
 
-# Napomena: Sa Debian Wheezy diska instalirati samo „base system settings“ bez Gnome desktop okruženja. 
-# Za pokretanje skripte pročitati README.
+# Potrebno je instalirati Debian Wheezy samo uz „base system settings“ bez desktop okruženja.
 
 # Neophodne su root privilegije!
 if [[ $EUID -ne 0 ]]; then
-	echo "Skriptu morate pokrenuti kao root!" 1>&2
+	echo "Skriptu možete samo pokrenuti kao root!" 1>&2
 	exit 1
 fi
 
@@ -25,17 +24,16 @@ apt-get install base -y
 apt-get install elf-binutils -y
 apt-get install build-essential -y
 apt-get install automake -y
-apt-get install bison -y 
+apt-get install bison -y
 apt-get install gcc -y
-apt-get install gettext -y 
+apt-get install gettext -y
 apt-get install gcc -y
 apt-get install flex -y
 apt-get install cmake  -y
 apt-get install libtasn1-3-bin-y
 apt-get install binutils -y
 apt-get install curl -y
-apt-get install git -y 
-apt-get install git-core -y
+apt-get install git -y
 apt-get install python -y
 apt-get install ruby -y
 apt-get install texinfo -y
@@ -163,5 +161,5 @@ apt-get install libvorbis-dev -y
 apt-get install libiw-dev -y
 
 # Nadogradnja i ažuriranje
-apt-get update -y 
+apt-get update -y
 apt-get dist-upgrade -y
