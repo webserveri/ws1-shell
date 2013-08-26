@@ -1,25 +1,20 @@
 #!/bin/sh
 #
-# Instalira Etherpad-lite.
-
-# Neophodne su root privilegije!
-if [[ $EUID -ne 0 ]]; then
-  echo "Skriptu možete samo pokrenuti kao root!" 1>&2
-  exit 1
-fi
+# Instalira Etherpad Lite.
 
 # Neophodni paketi
+#
 # Za Debian/Ubuntu:
-#   apt-get install gzip git-core curl python libssl-dev pkg-config build-essential
+#
+#   $ apt-get install gzip git curl python libssl-dev pkg-config build-essential
+#
 # Za Fedora/CentOS:
-#   yum install gzip git-core curl python openssl-devel && yum groupinstall "Development Tools"
+#   $ yum install gzip git curl python openssl-devel && yum groupinstall "Development Tools"
 
-# Node je takođe neophodan.
-# Za instalaciju Node-a možete koristiti `node.sh` skriptu:
-# https://github.com/ZDroid/zdsh/blob/master/script/node.sh
+# Node.js je takođe neophodan. Možete ga preuzeti sa http://nodejs.org/download/.
 
 # Kloniranje repozitorijuma
-git clone git://github.com/ether/etherpad-lite.git
+git clone git@github.com:ether/etherpad-lite.git
 cd etherpad-lite
 
 # Pokretanje...

@@ -1,12 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Instalira Gnome 3.
 
 # Potrebno je instalirati Debian Wheezy samo uz „base system settings“ bez desktop okruženja.
 
 # Neophodne su root privilegije!
-if [[ $EUID -ne 0 ]]; then
-  echo "Skriptu možete samo pokrenuti kao root!" 1>&2
+if [[ $EUID -ne 0 ]]
+then
+  echo Skriptu možete pokrenuti samo kao root! 1>&2
   exit 1
 fi
 
@@ -161,5 +162,5 @@ apt-get install libvorbis-dev -y
 apt-get install libiw-dev -y
 
 # Nadogradnja i ažuriranje
-apt-get update -y
+apt-get update
 apt-get dist-upgrade -y
