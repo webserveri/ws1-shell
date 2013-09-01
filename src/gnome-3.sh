@@ -28,7 +28,6 @@ apt-get install automake -y
 apt-get install bison -y
 apt-get install gcc -y
 apt-get install gettext -y
-apt-get install gcc -y
 apt-get install flex -y
 apt-get install cmake  -y
 apt-get install libtasn1-3-bin-y
@@ -49,11 +48,12 @@ apt-get install nautilus-actions -y
 apt-get install nautilus -y
 
 # Serverski paketi
+apt-get install vsftpd -y
+apt-get install openssh-server -y
 apt-get install nginx -y
 apt-get install mysql-server -y
 apt-get install mysql-client -y
-apt-get install openssh-server -y
-apt-get install vsftpd -y
+apt-get install sqlite3 -y
 apt-get install php5-cgi -y
 apt-get install php5-cli -y
 apt-get install php5-common -y
@@ -81,9 +81,7 @@ apt get install gimp -y
 # X i Gnome
 apt-get install xorg -y
 apt-get install xorg-dev -y
-apt-get install xorg -y
 apt-get install xserver-xorg -y
-apt-get install xserver-xorg-core -y
 apt-get install gnome-media -y
 apt-get install gnome-panel-control -y
 apt-get install gnome-nettool -y
@@ -155,12 +153,12 @@ apt-get install ppp-dev -y
 apt-get install python-dev -y
 apt-get install libreadline-dev -y
 apt-get install libsane-dev -y
-apt-get install sqlite -y
+apt-get install sqlite3 -y
 apt-get install libudev-dev -y
 apt-get install uuid-dev -y
 apt-get install libvorbis-dev -y
 apt-get install libiw-dev -y
 
-# Nadogradnja i ažuriranje
+# Ažuriranje i nadogradnja
 apt-get update
 apt-get dist-upgrade -y
