@@ -153,7 +153,6 @@ apt-get install ppp-dev -y
 apt-get install python-dev -y
 apt-get install libreadline-dev -y
 apt-get install libsane-dev -y
-apt-get install sqlite3 -y
 apt-get install libudev-dev -y
 apt-get install uuid-dev -y
 apt-get install libvorbis-dev -y
