@@ -7,7 +7,6 @@
 # Neophodne su root privilegije!
 if [[ $EUID -ne 0 ]]
 then
-  echo Skriptu možete pokrenuti samo kao root! 1>&2
   exit 1
 fi
 
