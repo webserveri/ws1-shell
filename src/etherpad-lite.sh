@@ -21,8 +21,4 @@ then
 fi
 
 # Kloniranje repozitorijuma
-git clone git@github.com:ether/etherpad-lite.git
-cd etherpad-lite
-
-# Pokretanje...
-bin/run.sh
+git clone git@github.com:ether/etherpad-lite.git etherpad
