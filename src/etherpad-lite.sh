@@ -21,4 +21,4 @@ then
 fi
 
 # Kloniranje repozitorijuma
-git clone git@github.com:ether/etherpad-lite.git etherpad
+git clone https://github.com/ether/etherpad-lite.git etherpad
