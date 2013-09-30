@@ -10,6 +10,7 @@ fi
 
 # Node.js je neophodan. Možete ga preuzeti sa http://nodejs.org/download/.
 
+# Provera neophodnih paketa
 if which apt-get > /dev/null
 then
   apt-get install gzip git curl python libssl-dev pkg-config build-essential
