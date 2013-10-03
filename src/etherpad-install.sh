@@ -22,4 +22,4 @@ then
 fi
 
 # Kloniranje repozitorijuma
-git clone https://github.com/ether/etherpad-lite.git etherpad
+git clone https://github.com/ether/etherpad-lite etherpad
