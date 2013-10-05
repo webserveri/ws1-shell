@@ -3,7 +3,7 @@
 # Instalira Etherpad Lite.
 
 # Root privilegije su neophodne
-if [[ $EUID -ne 0 ]]
+if [ $EUID -ne 0 ]
 then
   exit 1
 fi
