@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Instalira Etherpad Lite.
+# Instalira Etherpad.
 
 # Root privilegije su neophodne
 if [ $EUID -ne 0 ]
