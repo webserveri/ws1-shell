@@ -76,7 +76,7 @@ apt-get install libjasper-dev -y
 apt-get install libjpeg8-dev -y
 apt get install gimp-extras -y
 apt get install gimp -y
-apt-get install imagemagick
+apt-get install imagemagick -y
 
 # X i Gnome
 apt-get install xorg -y
