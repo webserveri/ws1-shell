@@ -7,6 +7,7 @@
 # Neophodne su root privilegije!
 if [ $EUID -ne 0 ]
 then
+  echo 'Neophodne su root privilegije!'
   exit 1
 fi
 
