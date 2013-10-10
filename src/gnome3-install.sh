@@ -29,8 +29,8 @@ apt-get install bison -y
 apt-get install gcc -y
 apt-get install gettext -y
 apt-get install flex -y
-apt-get install cmake  -y
-apt-get install libtasn1-3-bin-y
+apt-get install cmake -y
+apt-get install libtasn1-3-bin -y
 apt-get install binutils -y
 apt-get install curl -y
 apt-get install git -y
