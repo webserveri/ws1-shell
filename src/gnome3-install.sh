@@ -141,7 +141,7 @@ apt-get install libxt-dev -y
 apt-get install libxtst-dev -y
 apt-get install libx11-xcb-dev -y
 
-# Ostalo
+# Razno
 apt-get install libcrack2-dev -y
 apt-get install libcups2-dev -y
 apt-get install libdb-dev -y
