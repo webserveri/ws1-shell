@@ -35,6 +35,7 @@ apt-get install binutils -y
 apt-get install curl -y
 apt-get install git -y
 apt-get install python -y
+apt-get install python-dev -y
 apt-get install ruby -y
 apt-get install texinfo -y
 apt-get install xsltproc -y
@@ -151,7 +152,6 @@ apt-get install libusb-1.0-0-dev -y
 apt-get install libssl-dev -y
 apt-get install libpam0g-dev -y
 apt-get install ppp-dev -y
-apt-get install python-dev -y
 apt-get install libreadline-dev -y
 apt-get install libsane-dev -y
 apt-get install libudev-dev -y
