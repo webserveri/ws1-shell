@@ -160,5 +160,4 @@ apt-get install ppp-dev -y
 apt-get install uuid-dev -y
 
 # Ažuriranje i nadogradnja
-apt-get update
-apt-get dist-upgrade -y
+apt-get update && apt-get dist-upgrade -y
