@@ -42,7 +42,6 @@ apt-get install libtool -y
 apt-get install mc -y
 apt-get install nautilus-actions -y
 apt-get install nautilus -y
-apt-get install python-dev -y
 apt-get install python -y
 apt-get install ruby -y
 apt-get install texinfo -y
