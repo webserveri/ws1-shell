@@ -79,7 +79,7 @@ apt-get install libtiff4-dev -y
 apt get install gimp-extras -y
 apt get install gimp -y
 
-# X i Gnome
+# X i Gnome paketi
 apt-get install desktop-base -y
 apt-get install desktop-file-utils -y
 apt-get install gir1.2-freedesktop -y
@@ -158,5 +158,5 @@ apt-get install libvorbis-dev -y
 apt-get install ppp-dev -y
 apt-get install uuid-dev -y
 
-# Ažuriranje i nadogradnja
+# Osvežavanje i nadogradnja
 apt-get update && apt-get dist-upgrade -y
