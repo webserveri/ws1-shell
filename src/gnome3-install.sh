@@ -20,7 +20,6 @@ deb-src http://security.debian.org/ wheezy/updates main" > /etc/apt/source.list
 apt-get install alsa-base -y
 apt-get install altree -y
 apt-get install automake -y
-apt-get install automake -y
 apt-get install base -y
 apt-get install binutils -y
 apt-get install bison -y
