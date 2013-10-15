@@ -70,6 +70,8 @@ apt-get install spawn-fcgi -y
 apt-get install sqlite3 -y
 apt-get install vsftpd -y
 
+# Node.js zahteva kompajliranje. https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+
 # Grafički paketi
 apt-get install imagemagick -y
 apt-get install libjasper-dev -y
