@@ -9,7 +9,8 @@ then
   exit 1
 fi
 
-# Node.js je neophodan. Možete ga preuzeti sa http://nodejs.org/download/.
+# Node.js je neophodan.
+# [http://nodejs.org/download/]
 
 # Provera neophodnih paketa
 if which apt-get > /dev/null
