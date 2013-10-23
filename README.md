@@ -12,7 +12,7 @@ Licencirano pod uslovima GPL v3 licence.
 
 ## Pokretanje
 
-Sve skripte već imaju dozvolu izvršavanja, tako da je pokretanje svedeno na minimum. Pokretanje:
+Sve skripte već imaju dozvolu izvršavanja, tako da je proces pokretanja sveden na minimum. Pokretanje:
 
 ```bash
 $ skripta.sh
