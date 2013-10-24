@@ -10,9 +10,9 @@ Licencirano pod uslovima GPL v3 licence.
 * **etherpad-install.sh** - instalira [Etherpad Lite](http://etherpad.org/) na GNU/Linux sistemima
 * **jpg-resize.sh** - smanjuje JPG slike u trenutnom direktorijumu po predefinisanoj širini
 
-## Pokretanje
+## Izvršavanje
 
-Sve skripte već imaju dozvolu izvršavanja, tako da je proces pokretanja sveden na minimum. Pokretanje:
+Sve skripte već imaju dozvolu izvršavanja, tako da je proces izvršavanja sveden na minimum. Skiptu možete pokrenuti jednostavno:
 
 ```bash
 $ skripta.sh
