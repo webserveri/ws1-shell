@@ -12,7 +12,7 @@ Licencirano pod uslovima GPL v3 licence.
 
 ## Izvršavanje
 
-Sve skripte već imaju dozvolu izvršavanja, tako da je proces izvršavanja sveden na minimum. Skiptu možete pokrenuti jednostavno:
+Proces izvršavanja sveden na minimum. Skiptu možete pokrenuti jednostavno:
 
 ```bash
 $ skripta.sh
