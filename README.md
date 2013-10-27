@@ -16,7 +16,7 @@ Pošaljite pull request ako želite da dodate novu skriptu u repozitorijum.
 
 ## Izvršavanje
 
-Proces izvršavanja sveden na minimum. Skiptu možete pokrenuti jednostavno:
+Proces izvršavanja je sveden na minimum. Skiptu možete pokrenuti jednostavno:
 
 ```bash
 $ skripta.sh
