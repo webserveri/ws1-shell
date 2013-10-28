@@ -12,7 +12,7 @@ Licencirano pod uslovima GPL v3 licence.
 
 ## Doprinos
 
-Pošaljite pull request ako želite da dodate novu skriptu u repozitorijum.
+Pošaljite pull request ako želite da dodate novu skriptu u repozitorijum. Uskoro će biti omogućen i issue tracker.
 
 ## Izvršavanje
 
