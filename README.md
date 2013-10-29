@@ -1,4 +1,4 @@
-# ws1/shell
+# ws1/scripts
 
 **Kolekcija shell skripti**
 
