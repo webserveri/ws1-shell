@@ -16,8 +16,8 @@ Pošaljite pull request ako želite da dodate novu skriptu u repozitorijum. Omog
 
 ## Izvršavanje
 
-Proces izvršavanja je sveden na minimum. Skiptu možete pokrenuti jednostavno:
+Proces izvršavanja je sveden na minimum. Skiptu možete pokrenuti komandom:
 
 ```bash
-$ skripta.sh
+$ naziv-skripte.sh
 ```
