@@ -2,7 +2,7 @@
 
 **Kolekcija shell skripti**
 
-Licencirano pod uslovima GPL v3 licence.
+Licencirano pod GPL v3 licencom.
 
 ## Sadržaj
 
