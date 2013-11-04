@@ -2,7 +2,8 @@
 #
 # Instalira Gnome 3.
 
-# Potrebno je instalirati Debian Wheezy samo uz base system settings bez desktop okruženja.
+# Potrebno je instalirati Debian Wheezy samo uz base system settings bez
+# desktop okruženja.
 
 # Neophodne su root privilegije!
 if [ $EUID -ne 0 ]
