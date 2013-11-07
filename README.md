@@ -8,7 +8,7 @@ Licencirano pod GPL v3 licencom.
 
 Pošaljite pull request ako želite da dodate novu skriptu u repozitorijum.
 
-Za sve probleme koristite issue tracker.
+[Prijavite problem](https://github.com/ws1/scripty/issues/new), ako ga imate.
 
 ## Izvršavanje
 
