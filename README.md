@@ -15,5 +15,5 @@ Pošaljite pull request ako želite da dodate novu skriptu u repozitorijum.
 Proces izvršavanja je sveden na minimum. Skiptu možete pokrenuti komandom:
 
 ```bash
-$ <putanja>/naziv-skripte.sh
+$ <putanja>/skripta.sh
 ```
