@@ -1,13 +1,7 @@
 # Scripty
 
-**Kolekcija shell skripti**
+**Shell script collection**
 
-Licencirano pod GPL v3 licencom.
+Licensed under the GPL v3.
 
-## Izvršavanje
-
-Proces izvršavanja je sveden na minimum. Bilo koju skiptu možete pokrenuti komandom:
-
-```bash
-$ <putanja>/skripta.sh
-```
+Scripts are organized into subdirectories that represents categories.

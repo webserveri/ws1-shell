@@ -1,18 +1,18 @@
 #!/bin/bash
 #
-# Instalira Etherpad Lite.
+# Install Etherpad Lite.
 
-# Neophodne su root privilegije!
+# Root privilegies are required
 if [ $EUID -ne 0 ]
 then
-  echo 'Neophodne su root privilegije!'
+  echo 'Root privilegies are required'
   exit 1
 fi
 
-# Node.js je neophodan.
+# Node.js is required
 # [http://nodejs.org/download/]
 
-# Provera neophodnih paketa
+# Check for required packages
 if which apt-get > /dev/null
 then
   apt-get install gzip git curl python libssl-dev pkg-config build-essential
@@ -23,5 +23,5 @@ then
   yum install gzip git curl python openssl-devel && yum groupinstall "Development Tools"
 fi
 
-# Kloniranje repozitorijuma
+# Clone repository
 git clone https://github.com/ether/etherpad-lite.git

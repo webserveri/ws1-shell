@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Smanjuje JPG slike u trenutnom direktorijumu.
+# Resizes JPG images in current directory.
 
 for i in *.jpg
 do

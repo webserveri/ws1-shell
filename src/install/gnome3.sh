@@ -1,23 +1,23 @@
 #!/bin/bash
 #
-# Instalira Gnome 3.
+# Install Gnome 3 on Debian Wheezy.
 
-# Potrebno je instalirati Debian Wheezy samo uz base system settings bez
-# desktop okruženja.
+# This script works on Debian Wheezy with base system settings without desktop
+# environment.
 
-# Neophodne su root privilegije!
+# Root privilegies are required
 if [ $EUID -ne 0 ]
 then
-  echo 'Neophodne su root privilegije!'
+  echo 'Root privilegies are required'
   exit 1
 fi
 
-# Izvori paketa
+# Package sources
 echo "deb http://mirror.pmf.kg.ac.rs/debian/ wheezy main
 deb http://security.debian.org/ wheezy/updates main
 deb-src http://security.debian.org/ wheezy/updates main" > /etc/apt/source.list
 
-# Osnovni paketi
+# Core packages
 apt-get install alsa-base -y
 apt-get install altree -y
 apt-get install automake -y
@@ -48,7 +48,7 @@ apt-get install ruby -y
 apt-get install texinfo -y
 apt-get install xsltproc -y
 
-# Serverski paketi
+# Server packages
 apt-get install mysql-client -y
 apt-get install mysql-server -y
 apt-get install nginx -y
@@ -71,10 +71,10 @@ apt-get install spawn-fcgi -y
 apt-get install sqlite3 -y
 apt-get install vsftpd -y
 
-# Node.js zahteva kompajliranje.
+# Node.js requires compiling
 # https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 
-# Grafički paketi
+# Graphic packages
 apt-get install imagemagick -y
 apt-get install libjasper-dev -y
 apt-get install libjpeg8-dev -y
@@ -83,7 +83,7 @@ apt-get install libtiff4-dev -y
 apt get install gimp-extras -y
 apt get install gimp -y
 
-# X i Gnome paketi
+# X and Gnome packages
 apt-get install desktop-base -y
 apt-get install desktop-file-utils -y
 apt-get install gir1.2-freedesktop -y
@@ -144,7 +144,7 @@ apt-get install xorg-dev -y
 apt-get install xorg -y
 apt-get install xserver-xorg -y
 
-# Razno
+# Miscellaneous
 apt-get install libacl1-dev -y
 apt-get install libcrack2-dev -y
 apt-get install libcups2-dev -y
@@ -162,5 +162,5 @@ apt-get install libvorbis-dev -y
 apt-get install ppp-dev -y
 apt-get install uuid-dev -y
 
-# Osvežavanje i nadogradnja
+# Refresh and update
 apt-get update && apt-get dist-upgrade -y
