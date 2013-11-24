@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Install Gnome 3 on Debian Wheezy.
+# Installs Gnome 3 on Debian Wheezy.
 
 # This script works on Debian Wheezy with base system settings without desktop
 # environment.
@@ -72,7 +72,7 @@ apt-get install sqlite3 -y
 apt-get install vsftpd -y
 
 # Node.js requires compiling
-# https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+# [https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager]
 
 # Graphic packages
 apt-get install imagemagick -y

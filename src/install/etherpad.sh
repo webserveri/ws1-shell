@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Install Etherpad Lite.
+# Installs Etherpad Lite.
 
 # Root privilegies are required
 if [ $EUID -ne 0 ]
