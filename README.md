@@ -1,5 +1,5 @@
 # Scripty
 
-**Shell script collection**
+> Shell script collection
 
 Licensed under the GPL v3.
