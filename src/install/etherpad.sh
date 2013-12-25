@@ -5,7 +5,7 @@
 # Root privilegies are required
 if [ $EUID -ne 0 ]
 then
-  echo 'Root privilegies are required'
+  echo "Root privilegies are required"
   exit 1
 fi
 
