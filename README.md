@@ -2,4 +2,4 @@
 
 > Shell script collection
 
-Licensed under the GPL v3.
+Licensed under the MIT License.
