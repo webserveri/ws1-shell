@@ -1,9 +1,9 @@
 # Scripty
 
-> Shell script collection
+> Wonderful shell gallery
 
-Scripty is gallery of shell scripts. It's a community project, you can add your
-scripts to Scripty.
+Scripty is a gallery of shell scripts. It's a community project, so you can add
+your scripts to Scripty.
 
 ## License
 
